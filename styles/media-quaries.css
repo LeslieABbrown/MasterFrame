@@ -1,0 +1,105 @@
+/* @media (max-width: 1024px){
+    .our-works-container{
+        height: 200vh;
+        margin-bottom: 100px;
+    }
+} */
+
+@media (max-width: 900px){
+    nav ul{
+        display: none;
+    }
+
+    nav .burger{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .burger span{
+        height: 1px;
+        width: 2.5rem;
+        border: 2px solid;
+        margin: 2.5px 3rem;
+    }
+
+    /* header .header-text-container{
+        margin-top: -200px;
+    } */
+}
+
+@media (max-width: 650px){
+
+    header .header-text-container{
+        border: none;
+        padding: auto;
+    }
+    header .header-text-container h3{
+        text-align: center;
+        /* margin-left: -300px; */
+        line-height: 3rem;
+        font-size: 2rem;
+    }
+
+    header .header-text-container h3 span{
+        display: block;
+        font-size: 2.5rem;
+        /* margin-left: 300px; */
+    }
+
+    .header-text-container h3 .header-line{
+        display: block;
+        border: 2px solid;
+        width: 10%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    header .header-text-container p{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    /* Section */
+    .our-works-container{
+        padding-top: 4rem;
+    }
+}
+
+@media (max-width: 510px) {
+    nav .logo h1{
+        font-size: 1.5rem;
+        padding-top: 0.5rem;
+    }
+
+    nav .logo h2{
+        font-size: 1.75rem;
+    }
+
+    header .header-text-container{
+        padding-left: 3rem;
+        /* margin-top: 120px; */
+    }
+}
+
+@media (max-width: 415px){
+    nav .logo{
+        margin-left: -30px;
+    }
+    nav .logo h1{
+        font-size: 1rem;
+    }
+
+    nav .logo h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 330px){
+    nav .burger{
+        margin-right: -20px;
+    }
+
+    header .header-text-container button{
+        margin-left: 30px;
+    }
+}

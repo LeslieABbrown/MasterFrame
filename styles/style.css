@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background: url(../images/bg3.2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 1s background ease;
+}
+
+.container:hover{
+    background: url(../images/scott-blake-x-ghf9LjrVg-unsplash.jpg);   
+    background-position: center;
+    background-size: cover;
+    transition: 1s background ease;
+}
+
+nav{
+    background: rgba(231, 240, 216, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+/*     padding-top: 0.7rem;
+    padding-bottom: 0.7rem; */
+    transition: all 1s ease-in;
+    position: fixed;
+    width: 100%;
+}
+
+nav .burger{
+    display: none;
+}
+
+nav .logo{
+    font-family: sans-serif;
+    background: rgba(201, 197, 158, 0.39);
+    height: 100%;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 0.7rem;
+    transition: all 1s ease-in;
+}
+
+nav .logo h1{
+    color: rgb(226, 213, 139);
+    margin-left: 6rem;
+    border-bottom: 3px solid #000;
+}
+nav .logo h2{
+    margin-left: 3rem;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+nav ul{
+    list-style: none;
+    margin-right: 7rem;
+    gap: 30px;
+    display: flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:  rgb(53, 45, 45);
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 550;
+    transition: all 0.25s ease-out;
+}
+
+nav .active, nav ul li a:hover{
+    border-bottom: 3px solid  rgb(226, 213, 139);
+    padding-bottom: 5px;
+    color:  rgb(87, 84, 84);
+}
+
+/* HEADER */
+
+header{
+    background: rgba(126, 4, 4, 0.555);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* header:hover{
+    background: rgba(245, 148, 148, 0.548);
+} */
+
+header .header-text-container{
+    max-width: 500px;
+    border-right: 1px solid white;
+    padding-right: 1.5rem;
+}
+
+header .header-text-container h3{
+    font-family: serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+header .header-text-container h3 span{
+    color: rgb(226, 213, 139);
+    font-size: 3rem;
+}
+
+
+.header-text{  
+    max-width: 400px;
+}
+
+.header-text-container p span{
+    font-weight: bold;
+    font-size: 1.3rem;
+   
+}
+
+header .header-text-container p{
+    font-size: 1.15rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+header .header-text-container button{
+    background: rgba(226, 213, 139, 0.397);
+    color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    transition: 0.5s all ease-out;
+    margin-top: 1rem;
+    margin-left: 50%;
+}
+
+header .header-text-container button:hover{
+    background: rgba(255, 255, 255, 0.274);
+    color: rgb(226, 213, 139);
+    transition: 0.5s all ease-out;
+}
+
+/* .header-img{
+    height: 600px;
+    width: 600px;
+    background: url(../images/scott-blake-x-ghf9LjrVg-unsplash.jpg);
+   background: black; 
+    mix-blend-mode: multiply;
+} */
+
+/* .header-img video{
+    width: 100%;
+    height: ;
+    background-size: cover;
+    margin-top: 7rem;
+}  */
+
+/* Section Gallery (Our works) */
+.our-works-container{
+    /* height: 145vh; */
+    background: rgb(238, 236, 236);
+    padding-top: 5rem;
+}
+
+.our-works{
+    width: 90%;
+    margin: auto;
+}
+
+.our-works p{
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.7rem;
+    word-spacing: 0.7rem;
+    color: rgb(18, 34, 34);
+    margin-bottom: 4rem;
+}
+
+.item-name p a{
+    text-decoration: none;
+    color: rgb(18, 34, 34);
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.item-name p a:hover{
+    color: rgb(40, 77, 77);
+}
+
+.our-works p span{
+    color: rgb(53, 53, 53);
+    background: palegreen;
+}
+
+.line-ourworks{
+    text-align: center;
+    width: 20%;
+    border: 2px solid rgb(53, 53, 53);
+    transition: all 1s ease;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+
+.gallery-items-container{
+    height: 400px;
+    width: 400px;
+    margin-bottom: 4rem;
+    /* background: black; */
+}
+
+.gallery-items-container .gallery-items{ 
+    height: 80%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1.2rem;
+    border-radius: 5px;
+}
+
+.item-1{
+    background: url(../images/ourWorks/2.webp) no-repeat;
+    transition: all 0.5s ease;
+}
+
+.item-1:hover{
+    background: url(../images/ourWorks/1.1.jpg);
+    background-position:  center;
+    background-size: cover;
+}
+
+.item-2{
+    background: url(../images/ourWorks/3.1.jpg);
+    background-position: bottom;
+    transition: all 0.5s ease;
+}
+
+.item-2:hover{
+    background: url(../images/ourWorks/3.jpg);
+    background-position:  center;
+    background-size: cover;
+    
+}
+
+.item-3{
+    background: url(../images/ourWorks/4.webp);
+    transition: all 0.5s ease;
+}
+.item-4{
+    background: url(../images/ourWorks/5.jpg);
+    transition: all 0.5s ease;
+}
+.item-5{
+    background: url(../images/ourWorks/6.jpeg);
+    transition: all 0.5s ease;
+}
+.item-6{
+    background: url(../images/ourWorks/7.jpg);
+    transition: all 0.5s ease;
+}
+
+
+.item-3:hover{
+    background: url(../images/ourWorks/4.1.webp);
+    background-position:  center;
+    background-size: cover;
+    
+}
+
+.item-4:hover{
+    background: url(../images/ourWorks/5.1.jpeg);
+    background-position:  center;
+    background-size: cover;
+    
+}
+
+.item-5:hover{
+    background: url(../images/ourWorks/6.1.jpeg);
+    background-position:  center;
+    background-size: cover;
+    
+}
+
+.item-6:hover{
+    background: url(../images/ourWorks/7.1.webp);
+    background-position:  bottom;
+    background-size: cover;
+    
+}
+
+/* Section Our Customers*/
+.our-customers-section{
+    /* height: 50vh; */
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+    background: rgb(253, 253, 253);
+    
+}
+
+.opinions-container{
+    border-top: 1px solid gray;
+    padding-top: 5rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.opinions-container p{
+    font-size: 2rem;
+}
+
+.our-customers-wrap{
+    margin-bottom: 2rem;
+}
+
+.opinions-container p, .our-customers-wrap p{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(53, 53, 53);
+}
+
+.our-customers-wrap p{
+    max-width: 500px;
+}
+
+.our-customers-container{
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+.our-customers-container .our-customers{
+    height: 300px;
+    width: 300px;
+    /* background: black; */
+    border-radius: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.our-customers-container .our-customers .customer-img{
+    height:  100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px 5px rgba(51, 49, 49, 0.192);
+}
+
+.customer-1{
+    background: url(../images/customers/m3.jpg);
+}
+
+.customer-4{
+    background: url(../images/customers/vicky-hladynets-C8Ta0gwPbQg-unsplash.jpg);
+
+}
+.customer-5{
+    background: url(../images/customers/renaldo-matamoro-86JiKaHF4I8-unsplash.jpg);
+    background-position: top !important;
+}
+
+.customer-6{
+    background: url(../images/customers/m2.webp);
+}
+
+.customer-3{
+    background: url(../images/customers/linkedin-sales-solutions-Mis5fyJi7Q0-unsplash.jpg);
+}
+
+.customer-2{
+    background: url(../images/customers/steward-masweneng-IvaGYGAX3jI-unsplash.jpg);
+    background-position: top!important;
+}
+
+.customer-name{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.customer-text{
+    max-width: 300px;
+    font-size: 1rem;
+    font-family: serif;
+    line-height: 1.5rem;
+}
+
+/* Footer */
+
+footer{
+    background: palegoldenrod;
+    color: rgb(63, 29, 29);
+    font-family: sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.footer-line{
+    border-bottom: 2px solid white;
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+}
+
+.footer-text-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    gap: 40px;
+}
+
+.footer-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.7rem;
+}
+
+.footer-text{
+    max-width: 400px;
+    line-height: 1.3rem;
+    font-size: 1.10rem;
+    text-align: center;
+}
+
+.footer-text-container .text-wrap{
+    margin-bottom: 3rem;
+}
+
+.copyright{
+    width: 80%;
+    height: 7vh;
+    margin: auto;
+}
+
+.copyright p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.copyright p span{
+    background: rgba(238, 232, 170, 0.342);
+    color: rgb(63, 29, 29);
+    padding: 10px 20px;
+}

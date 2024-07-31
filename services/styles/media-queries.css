@@ -1,0 +1,114 @@
+@media (max-width: 1024px){
+   header{
+    width: 99%;
+    padding: 190px 20px 20px 20px;
+   }
+
+   .header-text{
+    max-width: 300px;
+    margin-right: 20px;
+   }
+
+   .header-text p{
+    font-size: 1rem;
+   }
+
+   .header-text h1{
+    font-size: 2rem;
+   }
+
+   .header-img{
+    height: 300px;
+    width: 300px;
+   }
+}
+
+@media (max-width: 900px){
+    nav ul{
+        display: none;
+    }
+
+    nav .burger{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .burger span{
+        height: 1px;
+        width: 2.5rem;
+        border: 2px solid;
+        margin: 2.5px 3rem;
+    }
+
+}
+
+@media (max-width: 768px){
+    header{
+        flex-direction: column-reverse;
+    }
+
+    .header-img{
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+    }
+
+    .header-text{
+        max-width: 400px;
+    }
+
+    /* .header-text h1{
+    
+    } */
+
+    .header-text span{
+        height: 10px;
+        width: 100%;
+        border: 2px solid black;
+    }
+}
+
+@media (max-width: 510px) {
+    nav .logo h1{
+        font-size: 1.5rem;
+        padding-top: 0.5rem;
+    }
+
+    nav .logo h2{
+        font-size: 1.75rem;
+    }
+
+    /* header */
+    .header-text{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 415px){
+    nav .logo{
+        margin-left: -30px;
+    }
+    nav .logo h1{
+        font-size: 1rem;
+    }
+
+    nav .logo h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 330px){
+    nav .burger{
+        margin-right: -20px;
+    }
+
+    header .header-text-container button{
+        margin-left: 30px;
+    }
+
+     /* header */
+     .header-img{
+        width: 280px;
+        height: 280px;
+     }
+}

@@ -1,0 +1,142 @@
+@media (max-width: 2560px){
+    .copyright{
+        padding-top: 12rem;
+    }
+}
+
+@media (max-width: 1440px){
+    .copyright{
+        padding-top: 5rem;
+    }
+}
+
+@media (max-width: 1024px){
+    .copyright{
+        padding-top: 3.5rem;
+    }
+
+    .copyright p{
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 900px){
+    .copyright{
+        padding-top: 0;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    nav .burger{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .burger span{
+        height: 1px;
+        width: 2.5rem;
+        border: 2px solid;
+        margin: 2.5px 3rem;
+    }
+}
+
+@media (max-width: 768px){
+    .header-text p{
+        font-size: 1.2rem;
+    }
+
+    .header-text p span{
+        font-size: 1.5rem;
+    }
+
+    .form-container{
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    .form-container p{
+        font-size: 2.6rem;
+    }
+
+    form input, form textarea{
+        margin-left: 14%;
+        font-size: 1.5rem;
+    }
+
+    form button{
+        margin-left: 25%;
+        font-size: 1.3rem;
+    }
+
+    .copyright{
+        padding-top: 4rem;
+    }
+}
+
+@media (max-width: 510px) {
+    nav .logo h1{
+        font-size: 1.5rem;
+        padding-top: 0.5rem;
+    }
+
+    nav .logo h2{
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 415px){
+    nav .logo{
+        margin-left: -30px;
+    }
+    nav .logo h1{
+        font-size: 1rem;
+    }
+
+    nav .logo h2{
+        font-size: 1.5rem;
+    }
+
+    /* Form */
+    form textarea{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    form input{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: auto;
+    }
+
+    form button{
+        width: 70%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 330px){
+    nav .burger{
+        margin-right: -20px;
+    }
+
+}
+
+@media (max-width: 310px){
+    nav .burger{
+        margin-right: -20px;
+    }
+
+    nav .logo h2{
+        font-size: 1rem;
+    }
+
+    nav .burger span{
+        height: 1px;
+        width: 2rem;
+        border: 2px solid;
+        margin: 2.5px 2rem;
+    }
+}

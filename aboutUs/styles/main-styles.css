@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background: rgba(231, 240, 216, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+/*     padding-top: 0.7rem;
+    padding-bottom: 0.7rem; */
+    transition: all 1s ease-in;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav .burger{
+    display: none;
+}
+
+nav .logo{
+    font-family: sans-serif;
+    background: rgba(201, 197, 158, 0.39);
+    height: 100%;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 0.7rem;
+    transition: all 1s ease-in;
+}
+
+nav .logo h1{
+    color: rgb(226, 213, 139);
+    margin-left: 6rem;
+    border-bottom: 3px solid #000;
+}
+nav .logo h2{
+    margin-left: 3rem;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+nav ul{
+    list-style: none;
+    margin-right: 7rem;
+    gap: 30px;
+    display: flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:  rgb(53, 45, 45);
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 550;
+    transition: all 0.25s ease-out;
+}
+
+nav .active, nav ul li a:hover{
+    border-bottom: 3px solid  rgb(226, 213, 139);
+    padding-bottom: 5px;
+    color:  rgb(87, 84, 84);
+}
+
+/*Header*/
+.header-container{
+    background: rgb(2, 2, 27);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-section{
+    max-width: 500px;
+    color: white;
+}
+
+.left-section h1{
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.left-section p{
+    font-size: 1.05rem;
+    font-family: monospace;
+    line-height: 22px;
+    text-align: center;
+}
+
+.right-section{
+    background: whitesmoke;
+    color: black;
+}

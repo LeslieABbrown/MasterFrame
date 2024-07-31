@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background: rgba(231, 240, 216, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+/*     padding-top: 0.7rem;
+    padding-bottom: 0.7rem; */
+    transition: all 1s ease-in;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav .burger{
+    display: none;
+}
+
+nav .logo{
+    font-family: sans-serif;
+    background: rgba(201, 197, 158, 0.39);
+    height: 100%;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 0.7rem;
+    transition: all 1s ease-in;
+}
+
+nav .logo h1{
+    color: rgb(226, 213, 139);
+    margin-left: 6rem;
+    border-bottom: 3px solid #000;
+}
+nav .logo h2{
+    margin-left: 3rem;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+nav ul{
+    list-style: none;
+    margin-right: 7rem;
+    gap: 30px;
+    display: flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:  rgb(53, 45, 45);
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 550;
+    transition: all 0.25s ease-out;
+}
+
+nav .active, nav ul li a:hover{
+    border-bottom: 3px solid  rgb(226, 213, 139);
+    padding-bottom: 5px;
+    color:  rgb(87, 84, 84);
+}
+
+/* Header */
+
+.header-container{
+    background: url(../../images/customers/tierra-mallorca-rgJ1J8SDEAY-unsplash.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.header-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(253, 224, 198, 0.26);
+    width: 100%; 
+    padding-top: 10rem;
+    /* border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%; 
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%; */
+}
+
+.header-text{  
+    max-width: 400px;
+}
+
+.header-text p{
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    color: #000;
+}
+
+.header-text p span{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(197, 189, 189);
+    background: #1a19196e;
+}
+
+/* Contact form */
+.form-container{
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+    
+}
+.form-container p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(53, 43, 43);
+    background: rgba(213, 255, 248, 0.233);
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+    padding: 16px;
+    margin-bottom: 2rem;
+    transition: all 1s ease;
+    /* max-width: 300px; */
+}
+
+
+form input{
+    padding: 16px;
+}
+
+form textarea, form input{
+    background: rgba(0, 0, 0, 0.315);
+    color: white;
+    width: 70%;
+    font-size: 2rem;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 0.75rem;
+    outline: none;
+}
+
+form input::placeholder, form textarea::placeholder{
+    color: white;
+}
+form textarea{
+    padding-left: 0.25rem;
+    display: block;
+}
+
+form button{
+    width: 50%;
+    font-size: 1.7rem;
+    margin-left: 5rem;
+    padding: 16px;
+    border: none;
+    background: linear-gradient(rgba(152, 251, 152, 0.11), rgba(30, 135, 255, 0.397));
+    color: rgb(44, 41, 41);
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    transition: all 0.5s ease;
+}
+
+form button:hover{
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.315);
+    color: white;
+    transition: all 0.5s ease;
+    
+}
+
+.copyright{
+    width: 80%;
+    height: 14vh;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+
+.copyright p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.copyright p span{
+    background: rgba(238, 232, 170, 0.342);
+    color: rgb(63, 29, 29);
+    padding: 10px 20px;
+}

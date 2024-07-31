@@ -1,0 +1,196 @@
+@media (max-width: 2560px){
+    .copyright{
+        width: 80%;
+        height: 7vh;
+        margin: auto;
+    }
+}
+
+@media (max-width:1440px){
+    .copyright{
+        width: 80%;
+        position: absolute;
+        left: -22rem;
+        bottom: -20rem;
+    }
+}
+
+@media (max-width:1024px){
+    .copyright{
+        width: 80%;
+        position: absolute;
+        left: 7rem;
+        bottom: -74rem;
+    }
+
+    .left-hero{
+        margin-top: 14rem;
+    }
+}
+
+@media (max-width: 999px){
+    .copyright{
+        width: 80%;
+        position: absolute;
+        left: 7rem;
+        bottom: -97rem;
+    }
+}
+
+@media (max-width: 900px){
+    nav ul{
+        display: none;
+    }
+
+    nav .burger{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .burger span{
+        height: 1px;
+        width: 2.5rem;
+        border: 2px solid;
+        margin: 2.5px 3rem;
+    }
+
+    /* .copyright{
+        width: 80%;
+        position: absolute;
+        left: 7rem;
+        bottom: -60rem;
+    } */
+
+}
+
+/* @media (max-width: 646px){
+    .right-section .right-image-container{
+        width: 300px;
+    }
+} */
+
+@media (max-width: 567px){
+    .left-hero h1{
+        font-size: 1.99rem;
+        text-align: center;
+    }
+
+    .left-hero .left-text p{
+        font-size: 0.96rem;
+        max-width: 400px;
+    }
+
+    .copyright{
+        position: absolute;
+        right: 7rem;
+    } 
+}
+
+@media (max-width: 510px) {
+    nav .logo h1{
+        font-size: 1.5rem;
+        padding-top: 0.5rem;
+    }
+
+    nav .logo h2{
+        font-size: 1.75rem;
+    }
+
+    .text-wrap{
+        margin: 10px;
+    }
+
+    .left-hero .left-text p{
+        font-size: 0.96rem;
+        max-width: 300px;
+        margin: 2rem;
+    }
+}
+
+@media (max-width: 425px){
+    .copyright{
+        width: 80%;
+        position: absolute;
+        left: 2rem;
+        bottom: -99rem;
+    }
+}
+
+@media (max-width: 415px){
+    nav .logo{
+        margin-left: -30px;
+    }
+    nav .logo h1{
+        font-size: 1rem;
+    }
+
+    nav .logo h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 360px){
+    .copyright p span{
+        display: block;
+    }
+}
+
+@media (max-width: 344px){
+    nav .burger{
+        margin-right: -20px;
+    }
+
+    .right-hero{
+        margin-bottom: 100rem;
+    }
+
+    .copyright{
+        width: 80%;
+        position: absolute;
+        left: 2rem;
+        bottom: -101rem;
+    }
+
+}
+
+@media (max-width: 326px){
+    body{  
+        padding-bottom: 100rem;
+    }
+
+    .copyright{
+        width: 80%;
+        position: absolute;
+        left: 2rem;
+        bottom: -106rem;
+    }
+}
+
+@media (max-width: 310px){
+    
+    nav .burger{
+        margin-right: -20px;
+    }
+
+    nav .logo h2{
+        font-size: 1rem;
+    }
+
+    nav .burger span{
+        height: 1px;
+        width: 2rem;
+        border: 2px solid;
+        margin: 2.5px 2rem;
+    }
+
+    body{  
+        padding-bottom: 103rem;
+    }
+
+    .copyright{
+        width: 80%;
+        position: absolute;
+        left: 2rem;
+        bottom: -109rem;
+    }
+}
